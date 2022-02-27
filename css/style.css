@@ -1,0 +1,58 @@
+/*Navbar*/
+
+.navbar{
+    font-family: serif-garamond;
+    background-color: transparent;
+    box-shadow: 0px 1px 20px #eaeaea;
+    transition: background-color 1s ease 0s;
+}
+
+.navbar.transparent{
+    transition: background-color 1s ease 0s;
+    opacity: 10%;
+}
+
+/*Tagline and Heading*/
+
+.head_tag{
+    font-family: 'papyrus', fantasy;
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Text and image side by side */
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+    width: 1000px;
+    padding-left: 15%;
+}
+
+.pull-left {
+    float: left;
+    margin:2px;
+    padding: auto;
+}
+
+.pull-right {
+    padding: 20px;
+    margin:20px;
+}
+
+h4{
+    font-family: serif-garamond;
+    font-size: 25px;
+    color: #2c3e50;
+    float: left;
+}
+
+.iconDetails{
+    width: 350px;
+    height: 350px;
+}
